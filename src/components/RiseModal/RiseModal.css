@@ -1,0 +1,30 @@
+.rise_modal {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 1rem 3rem rgb(0 0 0 / 18%);
+  z-index: 100;
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 100px;
+  min-width: 100px;
+  animation: rise 0.3s linear;
+  cursor: default;
+}
+.backdrop {
+  width: 100vw;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  position: fixed;
+  cursor: default;
+  z-index: 99;
+}
+@keyframes rise {
+  0% {
+    transform: translateY(15px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}

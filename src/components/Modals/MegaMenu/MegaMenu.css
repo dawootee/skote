@@ -1,0 +1,25 @@
+.mega_menu {
+  display: flex;
+  justify-content: space-between;
+  width: 1300px;
+  min-height: 290px;
+  padding: 30px;
+  box-sizing: border-box;
+}
+.mmenu_box {
+  flex: 1;
+}
+.mmenu_list_heading {
+  color: #495057;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.mmenu_list_item {
+  color: #495057;
+  font-size: 13px;
+  margin: 8px 0;
+}
+.mmenu_image {
+  width: 75%;
+}

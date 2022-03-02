@@ -1,0 +1,18 @@
+.apps_modal {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 20px 15px;
+}
+.apps_modal_item {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px solid white;
+}
+
+.apps_modal_item:hover {
+  border-color: #eff2f7;
+}

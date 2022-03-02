@@ -1,0 +1,169 @@
+.topbar_wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+.topbar_container {
+  width: 85%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.topbar_container * {
+  color: #555b6d !important;
+}
+.topbar_leftside,
+.topbar_rightside {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.topbar_logo {
+  height: 20px;
+}
+
+.topbar_searchbox {
+  width: 230px;
+  padding: 5px 0;
+  background-color: #f3f3f9;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tb_searchbox_icon {
+  margin-right: 5px;
+  width: 20px !important;
+  color: rgb(146, 145, 145);
+}
+.tb_searchbox_input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 15px;
+  width: 70%;
+}
+.tb_searchbox_input::placeholder {
+  font-size: 15px;
+  color: rgb(146, 145, 145);
+}
+.topbar_selector {
+  color: #555b6d;
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.topbar_selector_text {
+  font-size: 13px;
+}
+.topbar_selector_icon {
+  font-size: 18px !important;
+}
+.topbar_flagbtn_wrap {
+  position: relative;
+}
+.topbar_flagbtn {
+  width: 25px;
+  cursor: pointer;
+}
+
+.topbar_notification {
+  position: relative;
+  cursor: pointer;
+}
+.tb_notification_badge {
+  position: absolute;
+  right: -3px;
+  top: -10px;
+  font-size: 11px;
+  font-weight: 600;
+  color: white !important;
+  background-color: tomato;
+  border-radius: 50%;
+  min-width: 16px;
+  height: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tb_notification_icon {
+  animation: move 1.2s infinite;
+}
+
+.tb_profile_image {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.topbar_profile {
+  display: flex;
+  align-items: center;
+  width: 120px;
+  justify-content: space-between;
+}
+.tb_profile_selector {
+  flex: 1;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0 5px;
+}
+.topbar_settingbtn {
+  color: #555b6d !important;
+  animation: spin 2s infinite linear;
+}
+.topbar_apps {
+  position: relative;
+}
+.topbar_filter {
+  cursor: pointer;
+}
+.topbar_fullscreen_btn {
+  position: relative;
+}
+.topbar_fullscreen {
+  font-size: 28px !important;
+  cursor: pointer;
+}
+@keyframes move {
+  0% {
+    transform: rotate(0deg);
+  }
+  15% {
+    transform: rotate(10deg) scale(1.4, 1.1);
+  }
+  30% {
+    transform: rotate(-10deg) scale(1.4, 1.1);
+  }
+  45% {
+    transform: rotate(10deg) scale(1.4, 1.1);
+  }
+  60% {
+    transform: rotate(-10deg) scale(1.4, 1.1);
+  }
+  75% {
+    transform: rotate(10deg) scale(1.4, 1.1);
+  }
+  90% {
+    transform: rotate(-10deg) scale(1.4, 1.1);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,25 @@
+.countries_modal {
+  width: 150px;
+  padding: 5px 0;
+}
+.countries_modal_item {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  box-sizing: border-box;
+  padding: 0 10px 0 20px;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.countries_modal_item:hover {
+  background-color: rgba(211, 211, 211, 0.178);
+}
+.countries_modal_flag {
+  width: 20px;
+}
+.countries_modal_name {
+  font-size: 14px;
+  color: #555b6d;
+  margin-left: 10px;
+}
