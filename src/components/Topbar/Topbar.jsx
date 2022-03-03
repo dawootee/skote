@@ -10,10 +10,11 @@ import Grid from "@mui/icons-material/GridViewOutlined";
 import Notifications from "@mui/icons-material/NotificationsNoneOutlined";
 import Fullscreen from "@mui/icons-material/FullscreenOutlined";
 import Settings from "@mui/icons-material/SettingsOutlined";
-import RiseModal from "../RiseModal/RiseModal";
 import MegaMenu from "../Modals/MegaMenu/MegaMenu";
 import CountriesModal from "../Modals/CountriesModal/CountriesModal";
 import AppsModal from "../Modals/AppsModal/AppsModal";
+import ProfileModal from "../Modals/ProfileModal/ProfileModal";
+import SettingsDrawer from "../Modals/SettingsDrawer/SettingsDrawer";
 const Topbar = () => {
   const [modal, setModal] = useState(0);
   function launchFullScreen() {
@@ -95,14 +96,31 @@ const Topbar = () => {
             <div className="tb_notification_badge">2</div>
             <Notifications className="tb_notification_icon" />
           </div>
-          <div className="topbar_profile">
+          <div
+            className="topbar_profile"
+            onClick={() => {
+              setModal(4);
+            }}
+          >
+            {modal === 4 && (
+              <ProfileModal
+                onClose={() => setModal(0)}
+                style={{ top: "30px", left: "0" }}
+              />
+            )}
             <img src={Profile} alt="" className="tb_profile_image" />
             <div className="tb_profile_selector">
               <div className="tb_profile_selectortext">Admin</div>
               <KeyboardArrowDownIcon className="topbar_selector_icon" />
             </div>
           </div>
-          <Settings className="topbar_settingbtn" />
+          <Settings
+            className="topbar_settingbtn"
+            onClick={() => {
+              setModal(5);
+            }}
+          />
+          <SettingsDrawer show={modal === 5} onClose={() => setModal(0)} />
         </div>
       </div>
     </div>

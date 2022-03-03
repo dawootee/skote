@@ -108,6 +108,8 @@
   align-items: center;
   width: 120px;
   justify-content: space-between;
+  position: relative;
+  cursor: pointer;
 }
 .tb_profile_selector {
   flex: 1;
@@ -119,6 +121,7 @@
 .topbar_settingbtn {
   color: #555b6d !important;
   animation: spin 2s infinite linear;
+  cursor: pointer;
 }
 .topbar_apps {
   position: relative;

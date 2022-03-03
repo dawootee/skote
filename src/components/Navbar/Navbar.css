@@ -20,7 +20,7 @@
   margin-right: 30px;
   cursor: pointer;
 }
-.navbar_item * {
+.navbar_item > * {
   color: #ffffff99;
 }
 .navbar_item_icon {
