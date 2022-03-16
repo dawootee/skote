@@ -1,0 +1,80 @@
+.dashboardsaas_body {
+  background-color: #f8f8fb;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+.dashboardsaas_body_container {
+  width: 85%;
+}
+.dashboardsaas_heading_bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+.dashboardsaas_heading_title {
+  font-weight: 600;
+  color: #555b6d;
+}
+.dashboardsaas_heading_subtitle {
+  font-size: 14px;
+}
+
+.dsbc_banner2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+.dsbc_banner2_left {
+  background-color: #d5d6f4;
+  width: 30%;
+  height: 150px;
+  border-radius: 5px;
+  position: relative;
+  color: #556ee6;
+  padding-left: 25px;
+  box-sizing: border-box;
+}
+.dsbc_banner2_leftimg {
+  width: 40%;
+  position: absolute;
+  right: 2%;
+  bottom: 0;
+}
+.dsbc_banner2l_title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.dsbc_banner2l_subtitle {
+  font-size: 14px;
+  margin-top: 6px;
+}
+.dsbc_banner2l_list {
+  font-size: 14px;
+  list-style-position: inside;
+  margin-top: 6px;
+}
+.dsbc_banner2_right {
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+}
+.dsbc_charts_container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.dsbc_banner2_cards {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0;
+}
+.dsbc_banner2_citem {
+  width: 30%;
+}

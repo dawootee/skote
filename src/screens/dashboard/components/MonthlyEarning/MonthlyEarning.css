@@ -1,0 +1,82 @@
+.monthly_earning_card {
+  width: 100%;
+  background-color: white;
+  border-radius: 5px;
+  overflow: hidden;
+  height: 280px;
+  box-shadow: 0 0.75rem 1.5rem rgb(18 38 63 / 3%);
+  margin: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.monthly_earning_body {
+  display: flex;
+  width: 100%;
+}
+.mebl_btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0 7px;
+  border-radius: 4px;
+  color: white;
+  background-color: #556ee6;
+  font-size: 12px;
+  width: 110px;
+  height: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+  position: relative;
+  top: 10px;
+}
+.mebl_btn:hover {
+  background-color: #485ec4;
+}
+.mebl_btn_icon {
+  width: 2px;
+}
+.monthly_earning_header {
+  font-size: 15px;
+  font-weight: 600;
+  color: #555b6d;
+  padding-left: 10px;
+  box-sizing: border-box;
+  position: relative;
+  top: 10px;
+}
+.monthly_earning_footer {
+  color: rgb(177, 176, 176);
+  font-size: 13px;
+  box-sizing: border-box;
+  padding: 5px 10px;
+}
+.meb_left {
+  padding-left: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 55%;
+}
+.meb_right {
+  width: 45%;
+}
+.meb_left_label {
+  font-size: 13px;
+  color: rgb(153, 152, 152);
+}
+.meb_left_earning {
+  font-size: 24px;
+  font-weight: 600;
+  color: #555b6d;
+}
+.meb_left_desc {
+  font-size: 13px;
+  color: rgb(153, 152, 152);
+  position: relative;
+  top: -5px;
+}
+.mebl_desc_highlighted {
+  color: green;
+}

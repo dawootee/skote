@@ -1,0 +1,58 @@
+.db_mini_card2 {
+  width: 230px;
+  padding: 15px 20px;
+  background-color: white;
+  border-radius: 5px;
+  box-sizing: border-box;
+  box-shadow: 0 0.75rem 1.5rem rgb(18 38 63 / 3%);
+}
+
+.dbmc2_title {
+  font-size: 15px;
+  margin: 5px 0 0 10px;
+}
+
+.dbm_card2_badge {
+  align-items: center;
+  background-color: #556de6be;
+  color: #fff;
+  display: flex;
+  font-weight: 500;
+  height: 40px;
+  justify-content: center;
+  width: 40px;
+  border-radius: 50%;
+}
+.db_mini_card2header {
+  display: flex;
+}
+.db_mini_card2body {
+  display: flex;
+  align-items: center;
+}
+.dbm_card2_price {
+  margin: 10px 5px;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(41, 40, 40);
+}
+.dbm_card2_arrow {
+  transform: rotate(180deg);
+  color: rgb(116, 240, 116);
+}
+.db_mini_footer {
+  font-size: 14px;
+  color: grey;
+}
+.db_mini_footer > span {
+  background-color: rgba(135, 228, 135, 0.521);
+  color: green;
+  padding: 2px 3px;
+  border-radius: 5px;
+}
+@media (max-width: 1025px) {
+  .db_mini_card2 {
+    width: 100%;
+    margin: 5px 0;
+  }
+}

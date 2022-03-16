@@ -136,6 +136,9 @@
   font-size: 28px !important;
   cursor: pointer;
 }
+.topbar_leftside_menuicon {
+  display: none;
+}
 @keyframes move {
   0% {
     transform: rotate(0deg);
@@ -168,5 +171,31 @@
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 1024px) {
+  .topbar_fullscreen_btn {
+    display: none;
+  }
+  .topbar_leftside {
+    display: none;
+  }
+  .topbar_leftside_menuicon {
+    display: block;
+  }
+  .topbar_rightside {
+    width: 60%;
+  }
+}
+@media (max-width: 415px) {
+  .topbar_rightside {
+    width: 80%;
+  }
+  .tb_profile_selector {
+    display: none;
+  }
+  .topbar_profile {
+    width: fit-content;
   }
 }

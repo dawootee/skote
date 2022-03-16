@@ -15,6 +15,7 @@ import CountriesModal from "../Modals/CountriesModal/CountriesModal";
 import AppsModal from "../Modals/AppsModal/AppsModal";
 import ProfileModal from "../Modals/ProfileModal/ProfileModal";
 import SettingsDrawer from "../Modals/SettingsDrawer/SettingsDrawer";
+import MenuIcon from '@mui/icons-material/Menu';
 const Topbar = () => {
   const [modal, setModal] = useState(0);
   function launchFullScreen() {
@@ -53,6 +54,7 @@ const Topbar = () => {
             )}
           </div>
         </div>
+        <MenuIcon className="topbar_leftside_menuicon" />
 
         <div className="topbar_rightside">
           <div className="topbar_flagbtn_wrap">

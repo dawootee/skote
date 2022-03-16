@@ -1,0 +1,96 @@
+.saas_banner {
+  background-color: white;
+  width: 100%;
+  min-height: 120px;
+  box-shadow: 0 0.75rem 1.5rem rgb(18 38 63 / 3%);
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3%;
+  box-sizing: border-box;
+}
+
+.saas_banner_left {
+  width: 30%;
+  display: flex;
+}
+
+.sbl_left {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sbl_left > img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.sbl_right {
+  width: 80%;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+.sbl_right_label {
+  font-size: 14px;
+  color: rgba(128, 128, 128, 0.856);
+}
+.sbl_right_title {
+  font-size: 18px;
+  font-weight: 600;
+}
+.sbl_right_subtitle {
+  font-size: 14px;
+  color: rgba(128, 128, 128, 0.856);
+}
+
+.saas_banner_middle {
+  width: 35%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.saas_bm_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.saas_bm_itemtop {
+  font-size: 14px;
+  color: rgba(128, 128, 128, 0.856);
+  line-height: 30px;
+}
+.saas_bm_itembottom {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(26, 25, 25);
+}
+.saas_banner_right {
+  width: 35%;
+  display: flex;
+  justify-content: flex-end;
+  min-height: 100px;
+}
+
+.sbr_settigns_btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0 12px;
+  border-radius: 4px;
+  color: white;
+  background-color: #556ee6;
+  font-size: 14px;
+  width: 95px;
+  height: 35px;
+  cursor: pointer;
+  transition: 0.3s;
+  position: relative;
+  top: 10px;
+}
+
+.sbr_settigns_btn:hover {
+  background-color: #485ec4;
+}

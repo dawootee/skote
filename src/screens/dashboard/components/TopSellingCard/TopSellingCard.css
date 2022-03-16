@@ -1,0 +1,113 @@
+.top_selling_card {
+  width: 100%;
+  min-height: 400px;
+  border-radius: 5px;
+  box-shadow: 0 0.75rem 1.5rem rgb(18 38 63 / 3%);
+  background-color: white;
+  padding: 15px;
+  box-sizing: border-box;
+}
+.tsc_header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.tsch_text {
+  font-weight: 600;
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.795);
+}
+.tsch_months {
+  display: flex;
+  border: 1px solid rgba(128, 127, 127, 0.795);
+  border-radius: 5px;
+}
+.tsch_months_dropdown {
+  border: none;
+  outline: none;
+  font-size: 14px;
+  padding: 2px 5px;
+  color: rgb(56, 55, 55);
+}
+.tsch_months_btn {
+  border: none;
+  outline: none;
+  font-size: 14px;
+  padding: 2px 5px;
+  border-left: 1px solid rgba(128, 127, 127, 0.795);
+  margin-left: 2px;
+  background-color: rgba(141, 140, 140, 0.178);
+  color: rgb(56, 55, 55);
+}
+.tsc_subheader {
+  height: 110px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.tsc_subeheader_label {
+  font-size: 14px;
+  color: rgb(161, 161, 161);
+  font-weight: 500;
+}
+.tsc_subeheader_price {
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(56, 55, 55);
+  position: relative;
+  top: -5px;
+}
+.tsc_body {
+  width: 100%;
+}
+.tsc_body_item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.tsc_bi_left {
+  width: 40%;
+}
+.tsc_bi_title {
+  font-weight: 600;
+  font-size: 16px;
+  color: rgb(56, 55, 55);
+  line-height: 30px;
+}
+.tsc_bi_desc {
+  font-size: 14px;
+  color: rgb(161, 161, 161);
+  font-weight: 500;
+  line-height: 25px;
+}
+.tsc_bi_right {
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+}
+.tsc_bir_graph {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tsc_bir_right {
+  flex: 1;
+  text-align: center;
+}
+.tsc_birr_top {
+  font-size: 15px;
+  color: rgb(161, 161, 161);
+  font-weight: 500;
+  line-height: 25px;
+}
+.tsc_birr_bottom {
+  line-height: 30px;
+  font-weight: 600;
+  font-size: 18px;
+  color: rgb(56, 55, 55);
+  line-height: 30px;
+}

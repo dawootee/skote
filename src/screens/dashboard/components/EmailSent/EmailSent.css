@@ -1,0 +1,57 @@
+.email_sent_wrapper {
+  width: 100%;
+  padding: 10px 15px 35px 15px;
+  box-sizing: border-box;
+  background-color: white;
+  border-radius: 20px;
+  margin-top: 15px;
+  box-shadow: 0 0.75rem 1.5rem rgb(18 38 63 / 3%);
+}
+.email_sent_header {
+  display: flex;
+  height: 60px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 15px;
+  align-items: center;
+  justify-content: space-between;
+}
+.es_header_title {
+  font-size: 18px;
+  font-weight: 600;
+}
+.es_header_options {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  justify-content: space-between;
+}
+.es_header_option {
+  width: 60px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+  color: grey;
+  font-size: 15px;
+  transition: 0.5s;
+}
+.es_headetopt_active {
+  background-color: #485ec4;
+  color: white;
+}
+@media (max-width: 415px) {
+  .es_header_title {
+    font-size: 12px;
+  }
+  .es_header_option {
+    width: 40px;
+    height: 20px;
+    font-size: 10px;
+  }
+  .es_header_options {
+    width: 130px;
+  }
+}
